@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope & Action | Charity Mission</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80'); background-size: cover; background-position: center; }
+        .pulse-btn { animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); } 70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(220, 38, 38, 0); } 100% { transform: scale(1); } }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <header class="hero-bg h-[80vh] flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <h1 class="text-6xl md:text-8xl font-black mb-6">HELP OUT <span class="text-red-500">SOMEONE</span> TODAY</h1>
+            <p class="text-xl md:text-2xl mb-10 text-slate-200">Every donation brings us closer to a brighter future for those in need.</p>
+            <a href="YOUR_STRIPE_LINK" class="pulse-btn inline-block bg-red-600 hover:bg-red-700 text-white text-3xl font-black py-6 px-12 rounded-full tracking-widest uppercase">
+                Donate Now
+            </a>
+        </div>
+    </header>
+
+    <section class="py-20 text-center bg-white border-t">
+        <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+        <p class="text-slate-600">Email us at: <a href="mailto:admin@uthmankagency.com" class="text-red-600 font-bold">admin@uthmankagency.com</a></p>
+    </section>
+
+    <div id="bot-bubble" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+        <button onclick="toggleBot()" style="background: red; color: white; border-radius: 50%; width: 65px; height: 65px; font-size: 30px; border: none; cursor: pointer; box-shadow: 0 10px 25px rgba(239, 68, 68, 0.4);">💬</button>
+        <div id="bot-window" style="display: none; width: 330px; height: 450px; background: white; border: 2px solid red; border-radius: 20px; position: absolute; bottom: 80px; right: 0; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.2);">
+            <div style="background: red; color: white; padding: 15px; font-weight: bold; text-align: center;">Mission Assistant</div>
+            <iframe src="YOUR_PYTHONANYWHERE_LINK" style="width: 100%; height: 100%; border: none;"></iframe>
+        </div>
+    </div>
+
+    <script>
+        function toggleBot() {
+            var win = document.getElementById("bot-window");
+            win.style.display = (win.style.display === "none") ? "block" : "none";
+        }
+        document.addEventListener('contextmenu', e => e.preventDefault());
+    </script>
+  <iframe src="https://uthmanagency8707.pythonanywhere.com" style="width: 100%; height: 100%; border: none;"></iframe>
+</body>
+</html>
