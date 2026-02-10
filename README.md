@@ -1,1 +1,1 @@
-Welcome to help out someone Charity. We reach out to the struggling individuals and young ones lacking food, water, shelter,education and medical services to show generousity. you can just do the same. Support us at the link below.
+Welcome to help out someone Charity. We reach out to the struggling individuals and young ones lacking food, water, shelter, education and medical services to show generousity. you can just do the same. Support us at the link below.
