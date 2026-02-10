@@ -1,6 +1,1 @@
-Hope & Action Mission
-Founded: 2020
-
-Goal: Raise $30,000 for food and water.
-
-Status: Website Live at: [https://uthmankagency.github.io/Helpoutsomeonetoday/]
+Welcome to help out someone Charity. We reach out to the struggling individuals and young ones lacking food, water, shelter,education and medical services to show generousity. you can just do the same. Support us at the link below.
